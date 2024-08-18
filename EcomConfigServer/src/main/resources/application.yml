@@ -5,6 +5,7 @@ spring:
         git:
           uri: https://github.com/harvanshsaraswat/config.git
           skipSslValidation: true
-          
+          clone-on-start: true
+          default-label: master       
 server:
   port: 8765	

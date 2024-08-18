@@ -1,6 +1,0 @@
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8888/eureka
-msg: "this is from git"
-  
