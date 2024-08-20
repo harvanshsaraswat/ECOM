@@ -3,8 +3,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/harvanshsaraswat/ECOM
-          searchPaths: '{config.*}'
+          uri: https://github.com/harvanshsaraswat/ECOM.git
+          searchPaths: config
           cloneOnStart: true
 
 server:
