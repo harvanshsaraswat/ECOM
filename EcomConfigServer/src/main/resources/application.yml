@@ -3,9 +3,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/harvanshsaraswat/config.git
+          uri: https://github.com/harvanshsaraswat/ECOM
           skipSslValidation: true
-          clone-on-start: true
-          default-label: master       
+          cloneOnStart: true
+
 server:
   port: 8765	
