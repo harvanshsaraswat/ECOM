@@ -4,7 +4,7 @@ spring:
       server:
         git:
           uri: https://github.com/harvanshsaraswat/ECOM
-          skipSslValidation: true
+          searchPaths: '{config.*}'
           cloneOnStart: true
 
 server:
