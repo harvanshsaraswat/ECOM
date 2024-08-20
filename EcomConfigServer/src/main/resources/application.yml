@@ -4,7 +4,7 @@ spring:
       server:
         git:
           uri: https://github.com/harvanshsaraswat/ECOM.git
-          searchPaths: config
+          searchPaths: config,config/dev,config/test,config/prod
           cloneOnStart: true
 
 server:
